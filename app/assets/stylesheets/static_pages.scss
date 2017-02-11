@@ -53,6 +53,7 @@ html, body {
           background: #333;
           visibility: hidden;
         }
+        transition: all 0.3s;
       }
     }
     &:hover {
