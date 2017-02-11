@@ -51,6 +51,7 @@ html, body {
           font-size: 11px;
           color: #FFF;
           background: #333;
+          visibility: hidden;
         }
       }
     }
@@ -61,6 +62,9 @@ html, body {
         .reaction-icon:hover {
           transform: scale(1.4);
           transform-origin: bottom;
+          label {
+            visibility: visible;
+          }
         }
       }
     }
