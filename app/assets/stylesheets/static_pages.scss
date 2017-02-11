@@ -14,9 +14,19 @@ html, body {
     position: absolute;
     bottom: 13px; left: 13px;
     cursor: pointer;
-
+    .reaction-box {
+      position: absolute;
+      width: 312px; height: 55px;
+      background: #F0C674;
+      border-radius: 28px;
+      left: -25px; bottom: 25px;
+      display: none;
+    }
     &:hover {
       background: #718C00;
+      .reaction-box {
+        display: block;
+      }
     }
   }
 }
